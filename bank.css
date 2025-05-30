@@ -1,0 +1,134 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+            background: url('./coin\ img.jpg') no-repeat center ;
+            background-size: 2300px;
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #1e1e1e;
+            padding-top: 50px;
+            margin-top: 100px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        #header .profile {
+            display: flex;
+            align-items: center;
+            gap: 1.3rem;
+        }
+
+        #header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #header .welcome {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #container {
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            background-color: #1e1e1e;
+            margin-left: 3px;
+        }
+
+        .balance {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #00bfa6;
+            border-radius: 8px;
+        }
+
+        .balance .amount {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .balance .toggle {
+            cursor: pointer;
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            color: white;
+        }
+
+        .footer {
+            bottom: 0;
+            width: 100%;
+            background-color: transparent;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .footer-item {
+            text-align: center;
+            font-size: 1rem;
+            color: #ffffff;
+        }
+
+        .footer-item i {
+            display: block;
+            font-size: 1.5rem;
+            margin-bottom: 0.3rem;
+            color: #00bfa6;
+        }
+        #chinzzy{
+            border-radius: 50%;
+            width: 80px;
+        }
+        #offcanvasNavbar{
+            background: url('./coin\ img.jpg') no-repeat center center/cover;
+            align-items: center;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .icon-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        .icon-item .badge {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #ff5252;
+            font-size: 0.8rem;
+        }
+
+        .icon-item i {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .icon-item span {
+            font-size: 0.9rem;
+        }

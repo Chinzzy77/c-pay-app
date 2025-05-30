@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C-Pay Ltd</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="headerr">
+    <img src="./Chinzzy logo.jpg" alt="" width="130px">
+    <br>
+    <div class="logo text-danger display-2 fw-bold">C <span>Pay</span></div>
+  </div>
+
+  <main>
+    <div class="container mt-5 col-12 col-md-6">
+      <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <input type="text" id="username" class="form-control fw-bold" placeholder="Enter email" required>
+          <input type="password" id="password" class="form-control fw-bold" placeholder="Enter password" required>
+          <p id="message" class="text-center text-danger"></p>
+          <button type="button" onclick="login()" class="btn btn-primary w-100 mt-3">Login</button>
+        </form>
+        <a href="#" onclick="forgotPassword()" class="forgot-password">Forgot password?</a>
+      </div>
+    </div>
+  </main>
+
+  <footer id="foot">
+    <p id="para" >Don’t have a Chinzzy Account yet?  <br> <br><a href="#" onclick="goToSignup()">Click here to get one</a></p>
+    <p id="para" >Licensed by the <strong>CBN</strong> and insured by the <strong>NDIC</strong></p>
+  </footer>
+
+  <script src="./java.js"></script>
+</body>
+</html>
